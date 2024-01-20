@@ -1,0 +1,32 @@
+# Node Microservices Starter
+
+This project is a starter for building microservices using Node.js.
+
+## Services
+
+The project includes the following microservices:
+
+- Product Service: Handles all operations related to products. Located in [node-microservices-starter/product-service](node-microservices-starter/product-service).
+- User Service: Handles all operations related to users. Located in [node-microservices-starter/user-service](node-microservices-starter/user-service).
+
+Each service has its own Dockerfile for containerization and a `package.json` file defining its dependencies and scripts.
+
+## Getting Started
+
+To get started with this project:
+
+1. Clone the repository
+2. Navigate to each service directory and install the dependencies using `npm install`
+3. Use `docker-compose up` to start all services
+
+## Testing
+
+Currently, no tests are specified for the services. You can add tests in the `scripts` section of the `package.json` file in each service.
+
+## Dependencies
+
+Both services use Express.js version 4.18.2 for handling HTTP requests.
+
+## License
+
+This project is licensed under the ISC license.
